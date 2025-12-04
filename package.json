@@ -1,0 +1,33 @@
+{
+  "name": "graphpanel",
+  "version": "1.0.0",
+  "description": "This sample demonstrates how to invoke After Effects ExtendScript, from within a CEP panel.",
+  "main": "ext.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "postcss ./style.css -o ./style.css",
+    "watch": "postcss ./style.css -o ./style.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twoamdev/ae-graph.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/twoamdev/ae-graph/issues"
+  },
+  "homepage": "https://github.com/twoamdev/ae-graph#readme",
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.17",
+    "autoprefixer": "^10.4.22",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^4.1.17"
+  }
+}
